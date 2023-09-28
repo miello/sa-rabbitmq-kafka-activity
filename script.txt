@@ -1,0 +1,11 @@
+(For RabbitMQ)
+node server/kitchen Italian
+node server/kitchen Japanese Chinese
+node server/kitchen Japanese Thai Indian
+node server/kitchen Japanese Thai Indian Chinese Italian
+
+(For Apache Kafka)
+node server/kitchen_kafka Italian
+node server/kitchen_kafka Japanese Chinese
+node server/kitchen_kafka Japanese Thai Indian
+node server/kitchen_kafka Japanese Thai Indian Chinese Italian

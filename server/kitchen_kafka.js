@@ -17,8 +17,6 @@ const consumer = kafkaClient.consumer({
 })
 
 const run = async () => {
-  // Assign to specific partition with topic order
-  console.log(argv)
   await consumer.connect()
   await consumer.subscribe({ fromBeginning: true, topics: argv })
   await consumer.run({

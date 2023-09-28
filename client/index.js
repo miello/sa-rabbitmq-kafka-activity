@@ -61,7 +61,7 @@ app.post("/placeorder", async (req, res) => {
   console.log("[x] Sent '%s' to exchange '%s'", orderItem, req.body.type);
 });
 
-app.post("/placeorderkafka", async (req, res) => {
+app.post("/placeorder-kafka", async (req, res) => {
   var orderItem = {
     id: req.body.id,
     name: req.body.name,

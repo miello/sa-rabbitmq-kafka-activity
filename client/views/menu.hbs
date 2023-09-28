@@ -97,7 +97,6 @@
         $(document).ready(function () {
             $('#Menus_table').on('click', '.edit', function () {
                 $('#editMenuModal').modal('show');
-                console.log($(this).data())
                 $('.menu_id').val($(this).data('id'));
                 $('.menu_type').val($(this).data('type'));
                 $('.name').val($(this).data('name'));
